@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+}
+
+/* bootstrap mods */
+
+.fill {
+    min-height: 100%;
+    height: 100%;
+}
+
+.row {
+  height: inherit;
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  min-height: 100%;
+  height: 100%;
+}
+
+/* end bootstrap mods */
+
+
+/* begin custom styles */
+
+
+.row1 {
+  height: 8.39%;
+  min-height: 8.39%;
+}
+
+.row2, .row6, .row13, .row17 {
+  height: 1.75%;
+  min-height: 1.75%;
+}
+
+.row3 {
+  height: 5.59%;
+  min-height: 5.59%;
+}
+
+
+.map {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    display: block;
+}
+
+.color1 {
+  background-color: #a6cee3;
+}
+
+.color2 {
+  background-color: #1f78b4;
+}
+
+.color3 {
+  background-color: #b2df8a;
+}
+
+.color4 {
+  background-color: #33a02c;
+}
