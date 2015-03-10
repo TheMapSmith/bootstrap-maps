@@ -7,6 +7,7 @@ html, body {
 .fill {
     min-height: 100%;
     height: 100%;
+    padding: 15px;
 }
 
 .row {
@@ -69,6 +70,36 @@ html, body {
   min-height: 6.29%;
 }
 
+.row14 {
+  height: 6.64%;
+  min-height: 6.64%;
+}
+
+.row15 {
+  height: 4.55%;
+  min-height: 4.55%;
+}
+
+.row16 {
+  height: 3.15%;
+  min-height: 3.15%;
+}
+
+.row18 {
+  height: 4.55%;
+  min-height: 4.55%;
+}
+
+.row20 {
+  height: 4.2%;
+  min-height: 4.2%;
+}
+
+.row21 {
+  height: 15.71%;
+  min-height: 15.71%;
+}
+
 .map {
     width: 100%;
     height: 100%;
@@ -77,17 +108,17 @@ html, body {
 }
 
 .color1 {
-  background-color: #a6cee3;
+  background-color: #35203B;
 }
 
 .color2 {
-  background-color: #1f78b4;
+  background-color: #88A825;
 }
 
 .color3 {
-  background-color: #b2df8a;
+  background-color: #911146;
 }
 
 .color4 {
-  background-color: #33a02c;
+  background-color: #CF4A30;
 }
