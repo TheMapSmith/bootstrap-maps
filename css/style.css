@@ -1,5 +1,8 @@
 html, body {
     height: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444;
 }
 
 /* bootstrap mods */
@@ -17,8 +20,8 @@ html, body {
     padding: 15px;
 }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {
+
+@media (min-width: 768px) {
   .minifill {
       height: 350px;
       min-width: 360px;
@@ -156,4 +159,9 @@ html, body {
   text-align: center;
   font-weight: 500;
 
+}
+
+.img-responsive {
+  margin: 0 auto;
+  width: 100%;
 }
