@@ -34,9 +34,9 @@
         </div>
 
         <div class="jumbotron">
-          <h1><small>How I made a non-responsive</small></br>Bootstrap map</br><small>of the lower 48 states</small></h1>
-          <p class="lead">Using only open source information and tools.</p>
-          <p><a class="btn btn-lg btn-success" href="fullscreen.html" role="button">Go to the Fullscreen Map</a></p>
+          <h1><small>How I made a silly looking</small></br>Bootstrap map</br><small>of the lower 48 states</small></h1>
+
+          <a class="btn btn-success" href="fullscreen.html" role="button">Go to the Fullscreen Map</a>
         </div>
 
         <div class="container minifill">
@@ -134,12 +134,14 @@
 
         <div>
           <p>
-            I can’t find it now, but the inspiration for this map came from an
+            The inspiration for this map came from an
             example of brilliant email marketing. There was a Disney email that
             went out with a giant image of Mr. Incredible (or maybe it was
-            Wreck-It Ralph) drawn with a complicated HTML table that was shaped
-            like the character so that the content made sense to the recipient
-            even if they had images in their email disabled.
+            Wreck-It Ralph). Rendered in the background was a complicated HTML table that was shaped
+            like the character. This made it so that the email made sense to the recipient
+            even if they had images in their email disabled. I wish I could find the this, but
+            I haven't been able to locate this mysterious message. I've done my best
+            to capture the essence below.
           </p>
 
           <img class="img-responsive" src="img/inspiration.png" alt="artists rendition" />
@@ -177,7 +179,7 @@
 
         <div>
           <p>
-            I started out in Sketch with an SVG from Wikipedia of the lower 48
+            I started out in <a href="www.sketchapp.com">Sketch</a> with an SVG from Wikipedia of the lower 48
             states in an Albers projection. When I started looking at how I would
             delineate the states with horizontal rows I found the curved nature
             of the Albers projection to be too difficult. This was going to be a
@@ -186,7 +188,7 @@
           </p>
 
           <img class="img-responsive" src="img/Blank_US_Map-Albers.svg" alt="" />
-          <h5 class="text-center">Albers Equal-Area Conic Projection</br> <small>My favorite, but too many rows</small></h5>
+          <h5 class="text-center">Albers Equal-Area Conic Projection</br> <small>My favorite projection, alas, led to too many rows</small></h5>
 
         </div>
 
@@ -218,8 +220,8 @@
             Smaller states were immediately ruled out, and many north-south borders
             were either going to be cut short or extended. For example the northern
             panhandle of Idaho is completely eliminated in favor of making Washington
-            two Bootstrap columns wide. Only New York and Maine make it onto the grid
-            in New England
+            and Oregon two Bootstrap columns wide. Only New York and Maine make it onto the grid
+            in New England.
           </p>
 
           <img class="img-responsive" src="img/USA-Mercator-12cols.png" alt="" />
@@ -238,10 +240,7 @@
           <p>
             After delineating all of the rows, I started defining the states by
             coloring in the resulting grid. Surprisingly there weren’t a lot of
-            tough calls on where the resulting states would end up. The only
-            difficult area was around where the Ohio meets the Mississippi at
-            MO/IL/KY, and even there it was kind of an obvious choice.
-            IL didn’t extend that far south, TN that far north, or MO that far east.
+            tough calls on where the resulting states would end up. 
           </p>
 
           <img class="img-responsive" src="img/USA-Mercator-colors.png" alt="" />
@@ -262,7 +261,7 @@
           </p>
 
           <img class="img-responsive" src="img/USA-Mercator-pcts.png" alt="" />
-          <h5 class="text-center">Defining the CSS rows</br> <small>Apparently the FL panhandle is nearly 16% of our nation's height</small></h5>
+          <h5 class="text-center">Defining the CSS rows</br> <small>Apparently the FL panhandle is nearly 16% of the USA's height</small></h5>
 
           <p>
             I measured the total height of my drawing and the heights of each
@@ -282,7 +281,7 @@
             the 4-color rule of cartography to pick numbers for each state shape.
             The only time I came close to not being able to follow the rule was
             in the KS/OK/MO/AR quad. I defined four color classes in CSS and
-            picked a set of colors from color.adobe.com
+            picked a set of colors from <a href="http://color.adobe.com">color.adobe.com</a>.
           </p>
 
           <img class="img-responsive" src="img/USA-Mercator-css.png" alt="" />

@@ -18,12 +18,21 @@
     <![endif]-->
   </head>
   <body>
-    <div class="text-center">
-      <h1>Bootstrap Map</h1>
-      <h3>Lower 48 US States</h3>
-      <h4>Mercator Projection</h4>
+    <div class="header" style="padding-bottom: 5%;">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+          <li role="presentation"><a href="index.html">Home</a></li>
+          <li role="presentation"><a href="http://www.mapsmith.net" target="_blank">About</a></li>
+          <li role="presentation" class="active"><a href="fullscreen.html">The Map</a></li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">Bootstrap Map</h3>
     </div>
-
+    <div class="col-sm-12 text-center">
+      <p>
+        Resize me &harr;
+      </p>
+    </div>
     <div class="container fill">
       <div class="map">
       <div class="row row1"> <!-- start row 1 -->
@@ -111,6 +120,9 @@
       </div>
 
       </div> <!-- end fill -->
+
+      <a class="btn btn-lg btn-block" href="fullscreen.html" role="button" style="margin-top: 15px;">Go back to the Fullscreen Map</a>
+
     </div> <!-- end container -->
 
 
