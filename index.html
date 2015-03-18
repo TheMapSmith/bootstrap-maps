@@ -10,6 +10,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/jumbotron-narrow.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,7 +37,10 @@
         <div class="jumbotron">
           <h1><small>How I made a silly looking</small></br>Bootstrap map</br><small>of the lower 48 states</small></h1>
 
-          <a class="btn btn-success" href="fullscreen.html" role="button">Go to the Fullscreen Map</a>
+          <a class="btn btn-success btn-lg" href="fullscreen.html" role="button">Go to the Fullscreen Map</a>
+          <br>
+          <br>
+          <a href="https://github.com/TheMapSmith/bootstrap-maps" class="btn btn-sm btn-default" role="button"><i class="fa fa-github-alt"></i> View on GitHub</a>
         </div>
 
         <div class="container minifill">
@@ -146,7 +150,7 @@
 
           <img class="img-responsive" src="img/inspiration.png" alt="artists rendition" />
           <h5 class="text-center">Artist's rendition </br> <small>(Bonus points for anyone who locates the source)</small></h5>
-
+          <br>
           <p>
             This exampled evolved in my brain into the idea to make a map out of
             Bootstrap grids. I thought it would make an interesting constraint
@@ -163,7 +167,7 @@
           <p>
             The breakthrough moment came when I pulled up a simple image of the
             lower 48 united states and counted how many states across it was at
-            the maximum. This is one of those shamefully simple spatial tidbits
+            the widest point. This is one of those shamefully simple spatial tidbits
             that you never really think about. I couldn’t do it mentally, so I
             had to Google image search “contininenatal USA”
           </p>
@@ -179,7 +183,7 @@
 
         <div>
           <p>
-            I started out in <a href="www.sketchapp.com">Sketch</a> with an SVG from Wikipedia of the lower 48
+            I started out in <a href="http://bohemiancoding.com/sketch/" target="_blank">Sketch</a> with an SVG from Wikipedia of the lower 48
             states in an Albers projection. When I started looking at how I would
             delineate the states with horizontal rows I found the curved nature
             of the Albers projection to be too difficult. This was going to be a
@@ -240,7 +244,7 @@
           <p>
             After delineating all of the rows, I started defining the states by
             coloring in the resulting grid. Surprisingly there weren’t a lot of
-            tough calls on where the resulting states would end up. 
+            tough calls on where the resulting states would end up.
           </p>
 
           <img class="img-responsive" src="img/USA-Mercator-colors.png" alt="" />
@@ -254,7 +258,7 @@
 
         <div>
           <p>
-            After the shapes were drawn in Sketch I started planning the HTML and
+            After the shapes were drawn in <a href="http://bohemiancoding.com/sketch/" target="_blank">Sketch</a> I started planning the HTML and
             CSS development. I knew that I had to have classes for each row with a
             <code>min-height</code> so the map would scale vertically. A future version might
             have a fixed row height based on <code>@media</code> query breakpoints.
